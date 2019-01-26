@@ -267,6 +267,11 @@ footer {
   width: 100%;
   margin-bottom: 20px;
 }
+@media (max-width: 500px) {
+  .home .space-images {
+    width: 100%;
+  }
+}
 .home .space-images img {
   width: 28%;
   margin: 20px 2.5%;
@@ -276,6 +281,7 @@ footer {
 @media (max-width: 500px) {
   .home .space-images img {
     width: 100%;
+    margin: 20px 0;
   }
   .home .space-images img:nth-last-child(-n + 2) {
     display: none;
@@ -359,6 +365,7 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-img {
     width: 100%;
+    margin: 0;
   }
 }
 .home .walk .walk-img img {

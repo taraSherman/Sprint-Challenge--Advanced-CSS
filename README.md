@@ -52,7 +52,7 @@ Preprocessing allows a developer to write code that will do things such as reuse
 
 My favorite concept is probably the separation of elements into separate files, closely followed by (if not tied with) nesting. The organizational possibilities seem far superior to having simply one LONG file of code.
 
-I have the most trouble with mixins, for the moment, although I seem to be slowly taking in more of what can be done with them, a little bit at a time.
+I have the most trouble with mixins and variables, for the moment, although I seem to be slowly taking in more of what can be done with them, a little bit at a time. Also, I seem to have difficulties in getting the browser to properly reflect changes in viewport widths, and I spend too much time going back and making changes that are not really necessary.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
