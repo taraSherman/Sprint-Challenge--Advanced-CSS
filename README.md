@@ -34,37 +34,38 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An adaptive website consists of different layouts for different screen sizes. A responsive website adapts itself to different screen sizes.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile-first design is "content-first", starting with putting out a core function and layering the extras incrementally for higher resolutions. With desktop-first, the design calls for more dynamic features, details, and information, all of which get scaled down by hiding and wrapping elements when going to smaller screens.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Setting font-size to 62.5% makes 1rem the equivalent of 10px, vs the default 16px.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing allows a developer to write code that will do things such as reuse a definition, such as (a) defining a color code as, for example, main-text-color, which you can then reuse without having to look back through all your code to find that specific one; (b) use nesting to arrange elements in a more readable fashion, thus making inheritance easier to visualize; (c) use mesting to put media queries where you can immediately see the changes that are made when changing screen resolution; and (d) helps with organization, for example, by allowing for separate files for different elements, i.e., all variables in one file, a reset in another file, mixins in a third file, etc.. The preprocessor then rewrites it all into a single CSS file.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept is probably the separation of elements into separate files, closely followed by (if not tied with) nesting. The organizational possibilities seem far superior to having simply one LONG file of code.
+
+I have the most trouble with mixins, for the moment, although I seem to be slowly taking in more of what can be done with them, a little bit at a time.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-Because you are using a preprocessor, there are two parts to setting up your project.  Be sure to run through the git set up first and then set up the preprocessor.
+Follow these steps to set up your project:
 
 ### Git Set up
 
-Follow these steps to set up your project:
-
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
- 
-Follow these steps for completing your project.
-
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
-- [ ] Your project manager will count the project as complete by merging the branch back into master.
- 
+* [ ] Fork the project into your GitHub user account
+* [ ] Clone the forked project into a directory on your machine
+* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+* [ ] You are now ready to build this project with your preferred IDE
 
 ### Preprocessor Set up
 
