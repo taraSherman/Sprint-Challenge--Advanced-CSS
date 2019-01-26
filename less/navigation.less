@@ -6,7 +6,7 @@
     margin: 0 auto;
 
     @media @phone {
-        max-width: 500px;
+        width: 100%;
     }
     
 
@@ -17,8 +17,17 @@
         display: flex;
         justify-content: center;
 
+        @media @phone {
+            padding: 0;
+        }
+
         h1 {
             font-size: 3.9rem;
+
+            @media @phone {
+                font-size: 4rem;
+                margin-bottom: 15px;
+            }
         }
     }
 
