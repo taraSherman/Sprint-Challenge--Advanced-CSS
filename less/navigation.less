@@ -1,1 +1,53 @@
 // Navigation code here
+
+.nav {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+
+    @media @phone {
+        width: 100%;
+    }
+    
+
+    .title {
+        width: 100%;
+        margin: 0 auto;
+        padding: 14px 0 22px 0;
+        display: flex;
+        justify-content: center;
+
+        @media @phone {
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 3.9rem;
+
+            @media @phone {
+                font-size: 4rem;
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    .nav-items {
+        width: 38%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.7rem;
+
+        @media @phone {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        a {
+            .plain-links;
+            color: @main-font-color;
+            }
+    }
+}
